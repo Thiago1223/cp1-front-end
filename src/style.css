@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #EFE9F4;
+}
+
+header {
+    width: 100%;
+    background-color: #064661;
+    font-family: Limelight;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 42px 72px;
+    box-sizing: border-box;
+}
+
+#banner {
+    width: 100%;
+}
+
+main {
+    margin: 72px;
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+
+.first-section__title {
+    font-family: Limelight;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #064661;
+    padding: 0 0 24px 0;
+}
+
+.first-section__description {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: #262626;
+}
+
+.second-section {
+    display: flex;
+}
+
+.second-section__title {
+    font-family: Limelight;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #064661;
+    padding: 0 0 24px 0;
+}
+
+.second-section__description {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: #262626;
+}
+
+.second-section__image {
+    width: 538px;
+    height: 361px;
+    margin: 0 0 0 150px;
+}
+
+.third-section__title {
+    font-family: Limelight;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #064661;
+    padding: 0 0 24px 0;
+}
+
+.third-section__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-section__container__first_card {
+    width: 540px;
+    height: 200px;
+    border: #064661 solid 3px;
+    border-radius: 10px;
+    background-color: #99BEDF;
+    padding: 42px;
+    box-sizing: border-box;
+    color: #262626;
+}
+
+.third-section__container__card__title {
+    font-family: Limelight;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.third-section__container__card__description {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.third-section__container__second_card {
+    width: 540px;
+    height: 200px;
+    border: #064661 solid 3px;
+    border-radius: 10px;
+    background-color: #064661B2;
+    padding: 42px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+}
+
+.third-section__container__third_card {
+    width: 540px;
+    height: 200px;
+    border: #064661 solid 3px;
+    border-radius: 10px;
+    background-color: #99BEDF;
+    padding: 42px;
+    box-sizing: border-box;
+    color: #262626;
+}
+
+.fourth-section__title {
+    font-family: Limelight;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #064661;
+    padding: 0 0 24px 0;
+}
+
+.fourth-section__container {
+   display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.fourth-section__container__img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50px;
+}
+
+.fifth-section__title {
+    font-family: Limelight;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #064661;
+}
+
+.fifth-section__container {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
+.fifth-section i {
+    font-size: 32px;
+    color: #262626;
+}
+
+.fifth-section span {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 50px;
+    letter-spacing: 0%;
+}
+
+footer {
+    font-family: Poppins;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 26px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    background-color: #064661;
+    padding: 32px;
+    color: #FFFFFF;
+}
