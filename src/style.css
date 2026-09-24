@@ -101,12 +101,10 @@ main {
 }
 
 .third-section__container__first_card {
-    width: 540px;
-    height: 200px;
     border: #064661 solid 3px;
     border-radius: 10px;
     background-color: #99BEDF;
-    padding: 42px;
+    padding: 42px 182px 42px 42px;
     box-sizing: border-box;
     color: #262626;
 }
@@ -128,23 +126,19 @@ main {
 }
 
 .third-section__container__second_card {
-    width: 540px;
-    height: 200px;
     border: #064661 solid 3px;
     border-radius: 10px;
     background-color: #064661B2;
-    padding: 42px;
+    padding: 42px 182px 42px 42px;
     box-sizing: border-box;
     color: #FFFFFF;
 }
 
 .third-section__container__third_card {
-    width: 540px;
-    height: 200px;
     border: #064661 solid 3px;
     border-radius: 10px;
     background-color: #99BEDF;
-    padding: 42px;
+    padding: 42px 182px 42px 42px;
     box-sizing: border-box;
     color: #262626;
 }
